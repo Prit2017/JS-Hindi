@@ -1,0 +1,22 @@
+const accountID = 144553;
+let accountEmail = "pritp@gmail.com";
+var accountPassword = "12345";
+accountCity = "Jaipur";
+let accountState;
+//accountID = 2;
+accountEmail = "hc@hc.com ";
+accountPassword = "2122121";
+accountCity = "Bengaluru";
+/*
+Prefer not to use VAR
+because of issue in block scope and functional scope
+*/
+
+console.log(accountID);
+console.table([
+	accountID,
+	accountEmail,
+	accountPassword,
+	accountCity,
+	accountState,
+]);
