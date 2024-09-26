@@ -26,3 +26,24 @@ const myFunction = function () {
 	console.log("Hello World");
 };
 console.log(typeof myFunction);
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++
+//Stake (Primitive), Heap(Non-Primitive)
+// Primitive data types are stored in the stack memory.
+//Non - Primitive data types are stored in the Heap memory.
+
+let myYoutubename = "Hitespatel.com";
+let anothname = myYoutubename;
+anothname = "chaiaurcode";
+console.log(myYoutubename);
+console.log(anothname);
+
+let user = {
+	email: "user@google.com",
+	upi: "user@ybl",
+};
+
+let userTwo = user;
+userTwo.email = "user2@google.com";
+console.log(user.email);
+console.log(userTwo.email);
